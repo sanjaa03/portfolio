@@ -1,0 +1,280 @@
+@media screen and (max-width:1026px){
+
+    nav{
+        margin-top: 3%; 
+}
+#skills .polje h3{
+    font-size: 22px;
+}
+#skills .fa-brands{
+    font-size: 40px;
+}
+#skills .polje{
+    width:45%;
+    margin: 2%;
+}
+#skills #drzac-polja{
+    flex-wrap: wrap;
+}
+#skills h2{
+    font-size: 30px;
+  }
+  #projects h2{
+    font-size: 30px;
+  }
+  #contact h2{
+    font-size: 30px;
+  }
+  #adresa .adresa-polje .fa{
+    font-size: 30px;
+    
+  }
+  #adresa .adresa-polje h3{
+     font-size: 17px;
+    }
+    #adresa .adresa-polje p{
+      font-size: 15px;
+     }
+     #forma input{
+        width:30%;
+        margin:2% 0%;
+        padding: 12px 5px;
+    }
+    #forma textarea{
+        height:80px;
+        width:100%;
+    }
+footer{
+    font-size: 20px;
+}
+}
+
+@media screen and (max-width:850px){
+    #contact #adresa .adresa-polje p{
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width:770px){
+    header{
+         display:block;
+    }
+    #logo{
+        text-align: center;
+   }
+   nav{
+    text-align: center;
+    padding-bottom: 10px;
+   }
+   #pozadina{
+    width:100%;
+    height:400px;
+   }
+  #pozadina h2{
+    font-size:20px;
+    margin-right: 30px;
+   }
+   #aboutme h2{
+    font-size: 30px;
+  }
+
+  #info-tekst h3{
+  font-size: 15px;
+  }
+  #info-tekst p{
+    font-size: 12px;
+    padding-bottom: 20px;
+  }
+  #drzac #slika{
+    width:300px;
+    height:300px;
+    background-size: cover;
+    margin-right: 10%;
+ }
+ 
+  #projects h2{
+    font-size: 30px;
+  }
+#projects #drzac-projekat{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    padding: 3% 0%;
+  }
+ #projects #drzac-projekat .projekat{
+    width:90%;
+ }
+ #projects #drzac-projekat .projekat img{
+    height:300px;
+ }
+ #projects #drzac-projekat .projekat .dugme a{
+     padding: 2% 7%;
+    } 
+
+#contact #adresa .adresa-polje .fa{
+  font-size: 25px;
+}
+#contact #adresa .adresa-polje h3{
+   font-size: 15px;
+  }
+#contact #adresa .adresa-polje p{
+    font-size: 12px;
+}
+
+#contact #forma input{
+    width:30%;
+    margin:2% 0%;
+    padding: 10px 5px;
+}
+#contact #forma textarea{
+    height:70px;
+}
+footer{
+    font-size: 16px;
+}
+
+}
+@media screen and (max-width:600px){
+    #drzac{
+        display:block;
+    }
+    #drzac #slika{
+        width:200px;
+        height:200px;
+        background-size: cover;
+        margin-right:0%;
+        margin: 0px auto;
+     }
+     #contact #forma{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items: center;
+    }
+    #contact #forma input{
+        width:80%;
+    }
+    #forma textarea{
+        height:60px;
+    } 
+    #contact #forma .dugme a{
+        padding: 5px 15px;
+    } 
+    #contact #adresa .adresa-polje p{
+        font-size: 10px;
+        text-align:center;
+    }   
+    
+}
+@media screen and (max-width:427px){
+
+    header{
+        display:block;
+   }
+   #logo{
+       text-align: center;
+       font-size: 13px;
+  }
+  nav ul li{
+   display:block;
+   text-align: center; 
+   font-size: 10px;
+}
+.last-child{
+   margin-right: 0px;
+}
+#pozadina{
+   width:100%;
+   height:200px;
+  }
+ #pozadina h2{
+   font-size:17px;
+   margin-right: 10px;
+   text-align: center;
+  }
+  #tamno{
+   background-color: rgba(0,0,0,0.6);
+   align-items: center;
+   justify-content:center;
+}
+#aboutme h2{
+    font-size: 20px;
+}
+#aboutme p{
+ font-size: 15px;
+}
+/*#drzac{
+    display:block;
+}
+#drzac #slika{
+    width:200px;
+    height:200px;
+    background-size: cover;
+    margin-right:0%;
+    margin: 0px auto;
+ }
+*/
+ #skills .polje{
+    width:80%;
+    margin:3% auto;
+}
+#skills h2
+      {font-size: 22px;
+        }
+ #skills .polje h3{
+            font-size: 18px;
+        }
+ #projects h2{
+            font-size: 20px;
+        }
+ #projects #drzac-projekat .projekat img{
+            height:200px;
+         }
+  #projects #drzac-projekat .projekat p{
+            font-size: 12px;
+         }  
+ #contact h2{
+            font-size: 18px;
+        }
+#contact .centar #adresa {
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    padding: 3% 0%;
+} 
+#contact #adresa .adresa-polje .fa{
+    font-size: 27px;
+  }
+  #contact #adresa .adresa-polje h3{
+     font-size: 15px;
+    }
+    footer{
+        font-size: 10px;
+    }
+
+}
+
+
+
+@media screen and (max-width:377px){
+    #projects #drzac-projekat .projekat img{
+        height:170px;
+     }
+}
+@media screen and (max-width:325px){
+    #logo{
+        font-size: 15px;
+   }
+   nav ul li a{
+   font-size: 12x;
+}
+    #projects #drzac-projekat .projekat img{
+        height:150px;
+     }
+}
+
+

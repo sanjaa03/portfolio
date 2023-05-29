@@ -1,0 +1,315 @@
+$ljubicasta:#8a2ea3;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family:"Ubuntu";
+    src: url(../fonts/Ubuntu-Regular.ttf);
+}
+@font-face {
+    font-family:"Roboto";
+    src: url(../fonts/Roboto-Black.ttf);
+}
+@font-face {
+    font-family:"Pacifico";
+    src: url(../fonts/Pacifico-Regular.ttf);
+}
+body{
+    font-family: "Ubuntu";
+}
+.centar{
+    width:80%;
+    margin:0px auto;
+}
+header{
+    background-color:rgba(0,0,0,0.9);
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+#logo{
+    margin:1% 2%;
+    font-family:"Pacifico";
+    a{
+        text-decoration: none;
+        color:white;
+    }
+    .boja{
+        color:$ljubicasta;
+    }
+}
+nav{
+    margin-top: 2.5%;
+    ul{
+        list-style-type: none;
+    }
+    ul li {
+        display:inline;
+    }
+    ul li a{
+        text-decoration: none;
+        color:$ljubicasta;
+        margin-left:10px;
+        font-size: 18px;
+    }
+    a:hover{
+      color:white;
+    }
+}
+.last-child{
+    margin-right: 15px;
+}
+
+#pozadina{
+    width:100%;
+    height:500px;
+    background-image: url("../slikep/pozadina_ljub.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    h2{
+        color: white;
+        margin-right: 30px;
+        font-size: 40px;
+    }
+}
+#tamno{
+    background-color: rgba(0,0,0,0.5);
+    width: inherit;
+    height:inherit;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#aboutme{
+    background-color: rgba(0,0,0,0.9);
+    h2{
+        color: $ljubicasta;
+        padding: 30px 0px;
+        text-align: center;
+        font-size: 40px;
+    }
+    p{
+        color:white;
+        width: 75%;
+        margin:0px auto;
+        text-align:center;
+        padding-bottom:30px;
+    }
+   
+}
+#drzac{
+    display:flex;
+    justify-content:center;
+    padding-bottom: 5%;
+    #slika{
+        width:400px;
+        height:400px;
+        background-image: url("../slikep/slika.jpg");
+        background-size: cover;
+        border-radius: 50%;
+        margin-right: 10%;
+        padding-top: 1%;
+    }
+ }
+#info-tekst{
+    h3{
+        color:$ljubicasta;
+        text-align: center;
+        padding-top:1%;
+        font-size: 25px;
+        padding-bottom: 5px;
+    }
+    p{
+        text-align: center;
+    }
+ }
+ 
+ #skills{
+    width: 100%;
+    background-color: rgba(0,0,0,0.2);
+    padding-bottom: 3%;
+
+     h2{
+        color:$ljubicasta;
+        padding: 30px 0px;
+        text-align: center;
+        font-size: 40px;
+     }
+     #drzac-polja{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 3%;
+     }
+    .polje{
+       width:22%;
+       border:1px solid rgb(0,0,0,0.2);
+       border-radius: 5%;
+       box-shadow: 5px 5px 7px rgb(0,0,0,0.2);
+       text-align: center;
+
+       h3{
+        font-size: 30px;
+        padding: 20px 0px;
+        color: rgba(0,0,0,0.6);
+       }
+       p{
+        color: rgba(0,0,0,0.6);
+        padding: 4% 0%;
+       }
+     }
+     .polje:hover{
+        box-shadow:  5px 5px 7px rgb(#8a2ea3,0.4);
+     }
+     .fa-brands{
+        font-size: 50px;
+        color: $ljubicasta;
+        padding-bottom: 3%;
+     }
+ }
+#projects{
+    background-color: rgba(0,0,0,0.9);
+    h2{
+        color:$ljubicasta;
+        padding: 30px 0px;
+        text-align: center;
+        font-size: 40px;
+     }
+     #drzac-projekat{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 3% 0%;
+        .projekat p{
+          color:white;
+          text-align: center;
+          padding:2% 0%;
+          font-size: 15px;
+        }
+        .projekat .dugme{
+            margin: 3% auto;
+            }
+          .projekat .dugme a{
+           color:white;
+            text-decoration: none;
+            text-transform: uppercase;
+            border-radius: 20px;
+            width:inherit;
+            text-align: center;
+            background-color: $ljubicasta;
+            padding: 4% 10%;
+           }
+           .projekat .dugme a:hover{
+            background-color: rgba(255,255,255,0.5);
+            }
+     }
+     #drzac-projekat .projekat{
+        width:32%;
+        font-size: 30px;
+     } 
+     #drzac-projekat .projekat img{
+        width:100%;
+        height:200px;
+        border-radius:20px;
+        }
+} 
+#contact{
+    background-color: rgb(0,0,0,0.2);
+    h2{
+        color: $ljubicasta;
+        text-align: center;
+        font-size: 40px;
+        padding: 3% 0%;
+    }
+    #adresa {
+        display: flex;
+        justify-content: space-around;
+    }
+    #adresa .adresa-polje{
+        width: 30%;
+        text-align: center;
+    }
+    #adresa .adresa-polje .fa{
+      color:$ljubicasta;
+      font-size: 40px;
+      padding: 2% 0%;
+    }
+    #adresa .adresa-polje h3{
+       font-size: 22px;
+       color:rgba(0,0,0,0.7)
+      }
+      #adresa .adresa-polje p{
+        font-size: 20px;
+       }
+    #forma{
+        width:100%;
+        display:flex;
+        -webkit-box-pack: justify;
+         -ms-flex-pack: justify;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top:2%;
+        padding-bottom:5% ;
+    }
+    #forma input{
+        width:30%;
+        margin:2% 0%;
+        padding: 15px 7px;
+        border: 2px solid $ljubicasta;
+        border-style: inset;
+        border-radius: 20px;
+        background-color: rgba(0,0,0,0);
+    }
+    #forma textarea{
+        height:100px;
+        width:100%;
+        border: 2px solid $ljubicasta;
+        border-radius: 20px;
+        border-style: inset;
+        background-color: rgba(0,0,0,0);
+    }
+    #forma .dugme{
+            margin: 3% auto;
+           a{
+           color:white;
+            text-decoration: none;
+            text-transform: uppercase;
+            border-radius: 20px;
+            width:inherit;
+            text-align: center;
+            background-color: $ljubicasta;
+            padding: 10px 20px;
+           }
+           a:hover{
+            background-color: rgba(255,255,255,0.5);
+            }
+    }
+}
+footer{
+    background-color: rgba(0,0,0,0.9);
+    font-size: 25px;
+    .centar{
+    display: flex;
+    justify-content: space-between;
+}
+    #cpr{
+        color:$ljubicasta;
+        padding: 2% 0%;
+    }
+    #nesto {
+     padding: 2% 0%;
+    }
+    #nesto a{
+        color:$ljubicasta;
+    }
+    #nesto a:hover{
+        color:white;
+    }
+   
+}
+
+
+
